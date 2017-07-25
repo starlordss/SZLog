@@ -18,23 +18,25 @@
     [super viewDidLoad];
     
     
-//    NSString *n1 = @"张三";
-//    
-//    NSString *n2 = @"王五";
-//    
-//    NSString *n3 = @"李小";
-//    
-//    
+    NSString *n1 = @"张三";
+    
+    NSString *n2 = @"王五";
+    
+    NSString *n3 = @"李小";
+    
+    NSNumber *n4 = @100;
+    
+    
 //    NSLog(@"%@ %@ %@",n1, n2, n3);
-//    
+    
 //    NSMutableArray *arr = [NSMutableArray arrayWithObjects:n1, n2, n3, nil];
-//    NSArray *arr = @[n1, n2, n3];
-//
-//    NSLog(@"%@",arr);
+    NSArray *arr = @[n1, n2, n3, n4];
+
+    NSLog(@"%@",arr);
     
-    NSDictionary *dic = @{@"name": @"张三", @"addr": @"中国" };
-    
-    NSLog(@"%@",dic);
+//    NSDictionary *dic = @{@"name": @"张三", @"addr": @"中国" };
+//    
+//    NSLog(@"%@",dic);
 }
 
 

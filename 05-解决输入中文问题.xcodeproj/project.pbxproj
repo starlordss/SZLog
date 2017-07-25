@@ -13,7 +13,7 @@
 		0179B7711F03C40400F8CDFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0179B76F1F03C40400F8CDFA /* Main.storyboard */; };
 		0179B7731F03C40400F8CDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0179B7721F03C40400F8CDFA /* Assets.xcassets */; };
 		0179B7761F03C40400F8CDFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0179B7741F03C40400F8CDFA /* LaunchScreen.storyboard */; };
-		0179B77F1F03C43900F8CDFA /* NSArray+SZLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0179B77E1F03C43900F8CDFA /* NSArray+SZLog.m */; };
+		01AAC0841F242B3800F388F7 /* NSArray+SZLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AAC0831F242B3800F388F7 /* NSArray+SZLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		0179B7721F03C40400F8CDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0179B7751F03C40400F8CDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0179B7771F03C40400F8CDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0179B77D1F03C43900F8CDFA /* NSArray+SZLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SZLog.h"; sourceTree = "<group>"; };
-		0179B77E1F03C43900F8CDFA /* NSArray+SZLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SZLog.m"; sourceTree = "<group>"; };
+		01AAC0821F242B3800F388F7 /* NSArray+SZLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SZLog.h"; sourceTree = "<group>"; };
+		01AAC0831F242B3800F388F7 /* NSArray+SZLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SZLog.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +61,11 @@
 		0179B7651F03C40400F8CDFA /* 05-解决输入中文问题 */ = {
 			isa = PBXGroup;
 			children = (
+				01AAC0811F242B3800F388F7 /* SZLog */,
 				0179B7691F03C40400F8CDFA /* AppDelegate.h */,
 				0179B76A1F03C40400F8CDFA /* AppDelegate.m */,
 				0179B76C1F03C40400F8CDFA /* ViewController.h */,
 				0179B76D1F03C40400F8CDFA /* ViewController.m */,
-				0179B77D1F03C43900F8CDFA /* NSArray+SZLog.h */,
-				0179B77E1F03C43900F8CDFA /* NSArray+SZLog.m */,
 				0179B76F1F03C40400F8CDFA /* Main.storyboard */,
 				0179B7721F03C40400F8CDFA /* Assets.xcassets */,
 				0179B7741F03C40400F8CDFA /* LaunchScreen.storyboard */,
@@ -82,6 +81,15 @@
 				0179B7671F03C40400F8CDFA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01AAC0811F242B3800F388F7 /* SZLog */ = {
+			isa = PBXGroup;
+			children = (
+				01AAC0821F242B3800F388F7 /* NSArray+SZLog.h */,
+				01AAC0831F242B3800F388F7 /* NSArray+SZLog.m */,
+			);
+			path = SZLog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0179B77F1F03C43900F8CDFA /* NSArray+SZLog.m in Sources */,
 				0179B76E1F03C40400F8CDFA /* ViewController.m in Sources */,
+				01AAC0841F242B3800F388F7 /* NSArray+SZLog.m in Sources */,
 				0179B76B1F03C40400F8CDFA /* AppDelegate.m in Sources */,
 				0179B7681F03C40400F8CDFA /* main.m in Sources */,
 			);
@@ -315,6 +323,7 @@
 				0179B77C1F03C40400F8CDFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
